@@ -484,6 +484,7 @@ int main(int argc, char **argv) {
   adiak::value("iterations", vars.niter);
   adiak::value("groups", vars.num_groups);
   adiak::value("legendre_order", vars.legendre_order);
+  adiak::value("dset", vars.num_dirsets);
 
   if (vars.parallel_method == PMETHOD_SWEEP)
       adiak::value("parallel_method", "sweep");
